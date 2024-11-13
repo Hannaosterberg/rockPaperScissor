@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 0;
     
 }
 h1 {
@@ -48,7 +49,6 @@ button img {
     font-size: 2rem;
     font-weight: 500;
     color: rgb(86, 86, 86);
-
 }
 .greenText, .playerScoreDisplay {
     color: rgb(110, 202, 110);

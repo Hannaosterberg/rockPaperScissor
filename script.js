@@ -26,13 +26,13 @@ function playGame(playerChoice) {
     } else {
         switch(playerChoice){
             case "rock":
-                result = (computerChoice === "scissors") ? "YOU WIN!" : "YOU LOOSE"
+                result = (computerChoice === "scissors") ? "YOU WIN!" : "YOU LOOSE!"
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "YOU WIN!" : "YOU LOOSE"
+                result = (computerChoice === "rock") ? "YOU WIN!" : "YOU LOOSE!"
                 break;   
             case "scissors":
-                result = (computerChoice === "paper") ? "YOU WIN!" : "YOU LOOSE"
+                result = (computerChoice === "paper") ? "YOU WIN!" : "YOU LOOSE!"
                 break;
         }
     }
@@ -49,7 +49,7 @@ function playGame(playerChoice) {
             playerScore++;
             playerScoreDisplay.textContent = playerScore
             break;
-        case "YOU LOOSE":
+        case "YOU LOOSE!":
             resultDisplay.classList.add("redText");
             computerScore++;
             computerScoreDisplay.textContent = computerScore
